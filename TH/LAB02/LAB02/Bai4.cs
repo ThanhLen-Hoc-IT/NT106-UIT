@@ -8,23 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace LAB01
+namespace LAB02
 {
-    public partial class Bai3_1 : Form
+    public partial class Bai4 : Form
     {
-        public Bai3_1()
+        public Bai4()
         {
             InitializeComponent();
-        }
-
-        private void lbl_num_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_read_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

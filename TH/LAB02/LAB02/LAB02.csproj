@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C106E19B-C467-4A6A-8485-A53AB4730DF9}</ProjectGuid>
+    <ProjectGuid>{786F77B0-8B60-43D3-9012-2136F3384021}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>LAB01</RootNamespace>
-    <AssemblyName>LAB01</AssemblyName>
+    <RootNamespace>LAB02</RootNamespace>
+    <AssemblyName>LAB02</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -31,9 +31,6 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>LAB01.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -67,12 +64,6 @@
     <Compile Include="Bai3.Designer.cs">
       <DependentUpon>Bai3.cs</DependentUpon>
     </Compile>
-    <Compile Include="Bai3_1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Bai3_1.Designer.cs">
-      <DependentUpon>Bai3_1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Bai4.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,17 +88,11 @@
     <Compile Include="Bai7.Designer.cs">
       <DependentUpon>Bai7.cs</DependentUpon>
     </Compile>
-    <Compile Include="Bai8.cs">
+    <Compile Include="MENU.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Bai8.Designer.cs">
-      <DependentUpon>Bai8.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Main.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Main.Designer.cs">
-      <DependentUpon>Main.cs</DependentUpon>
+    <Compile Include="MENU.Designer.cs">
+      <DependentUpon>MENU.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -117,32 +102,8 @@
     <EmbeddedResource Include="Bai2.resx">
       <DependentUpon>Bai2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Bai3.resx">
-      <DependentUpon>Bai3.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Bai3_1.resx">
-      <DependentUpon>Bai3_1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Bai4.resx">
-      <DependentUpon>Bai4.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Bai5.resx">
-      <DependentUpon>Bai5.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Bai6.resx">
-      <DependentUpon>Bai6.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Bai7.resx">
-      <DependentUpon>Bai7.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Bai8.resx">
-      <DependentUpon>Bai8.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Main.resx">
-      <DependentUpon>Main.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Main.vi.resx">
-      <DependentUpon>Main.cs</DependentUpon>
+    <EmbeddedResource Include="MENU.resx">
+      <DependentUpon>MENU.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -153,7 +114,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="Bai3.Designer.1" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
