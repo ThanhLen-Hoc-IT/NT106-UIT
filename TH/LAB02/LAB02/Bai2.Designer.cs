@@ -74,7 +74,7 @@
             this.lblURL.Size = new System.Drawing.Size(50, 25);
             this.lblURL.TabIndex = 2;
             this.lblURL.Text = "URL";
-            this.lblURL.Click += new System.EventHandler(this.label3_Click);
+            
             // 
             // lblLineCount
             // 
@@ -84,8 +84,7 @@
             this.lblLineCount.Name = "lblLineCount";
             this.lblLineCount.Size = new System.Drawing.Size(102, 25);
             this.lblLineCount.TabIndex = 3;
-            this.lblLineCount.Text = "Line count";
-            this.lblLineCount.Click += new System.EventHandler(this.label4_Click);
+            this.lblLineCount.Text = "Line count"; 
             // 
             // lblWordCount
             // 
@@ -218,7 +217,6 @@
             this.Name = "frmBai2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bài 2";
-            this.Load += new System.EventHandler(this.frmBai2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

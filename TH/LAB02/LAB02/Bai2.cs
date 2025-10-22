@@ -18,20 +18,7 @@ namespace LAB02
             InitializeComponent();
         }
 
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void frmBai2_Load(object sender, EventArgs e)
-        {
-
-        }
+       
 
         private void btnReadFile_Click(object sender, EventArgs e)
         {
@@ -63,8 +50,10 @@ namespace LAB02
                     txtSize.Text = fi.Length.ToString() + " bytes";
 
                     // Số dòng
-                    string[] lines = content.Split(new[] { '\n' }, StringSplitOptions.None);
-                    txtLineCount.Text = lines.Length.ToString();
+                    int lineCount = 0;
+                    while (sr.ReadLine() != null)
+                        lineCount++;
+                    txtLineCount.Text = lineCount.ToString();
 
                     // Số từ
                     char[] dk = { ' ', '\n', '\r', '\t' };

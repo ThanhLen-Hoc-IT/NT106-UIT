@@ -80,6 +80,7 @@
             this.btnBai3.TabIndex = 3;
             this.btnBai3.Text = "Bài 3";
             this.btnBai3.UseVisualStyleBackColor = true;
+            this.btnBai3.Click += new System.EventHandler(this.btnBai3_Click);
             // 
             // btnBai4
             // 
@@ -90,6 +91,7 @@
             this.btnBai4.TabIndex = 4;
             this.btnBai4.Text = "Bài 4";
             this.btnBai4.UseVisualStyleBackColor = true;
+            this.btnBai4.Click += new System.EventHandler(this.btnBai4_Click);
             // 
             // btnBai5
             // 
@@ -100,6 +102,7 @@
             this.btnBai5.TabIndex = 5;
             this.btnBai5.Text = "Bài 5";
             this.btnBai5.UseVisualStyleBackColor = true;
+            this.btnBai5.Click += new System.EventHandler(this.btnBai5_Click);
             // 
             // btnBai6
             // 
@@ -121,6 +124,7 @@
             this.btnBai7.TabIndex = 7;
             this.btnBai7.Text = "Bài 7";
             this.btnBai7.UseVisualStyleBackColor = true;
+            this.btnBai7.Click += new System.EventHandler(this.btnBai7_Click);
             // 
             // frm_MENU
             // 
